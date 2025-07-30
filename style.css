@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    padding: 0%;
+    font-family: "DM Sans", Sans-serif;
+}
+header {
+    background-color: #caf0f8;
+    
+    
+}
+main {
+    background-color: #52ab98;
+}
+
+h1 { 
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    text-align: center;
+    text-decoration: underline blue  ;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    color: #003366;
+    font-size: 2.5rem;
+}
+#nevbar {
+    background-color: #2b6777;
+    height: 50px;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#foot {
+    background-color: #333;
+    color: white;
+    justify-content: center;
+    align-items: center;
+
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+
+}
+#content {
+    min-height: 85vh;
+    padding: 40px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+#th9 {
+    background-color: #c8d8e4;
+    width: 100%;
+    height: 40vh;
+    border: 2px solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+
+}
+#th10 {
+    background-color: #c8d8e4;
+    width: 100%;
+    height: 40vh;
+    border: 2px solid;
+        display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    
+
+}
+#th9-start {
+    height: 80%;
+    width: 20%;
+    
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+img {
+    height: 100%;
+    width: 100%;
+        border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+#th9-end {
+    height: 80%;
+    width: 60%;
+    
+}
+#th10-start {
+    height: 80%;
+    width: 20%;
+    
+}
+#th10-end {
+    height: 80%;
+    width: 60%;
+    
+}
+#Principle {
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+#Vice-principle {
+        font-size: 20px;
+    text-decoration: underline;
+}
+input {
+    border-radius: 2px;
+}
+button {
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+body {
+    background-color: #FFFFFF;
+}
