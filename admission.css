@@ -55,37 +55,7 @@ a {
     padding: 40px;
     border: 2px solid black;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    gap :10px
-
-}
-input {
-    height: 30px;
-    width: 50%;
-    border-radius: 5px;
-    border: 3px solid;
-}
-textarea {
-    height: 400px;
-    width: 50%;
-    resize: none;
-    border: 3px solid;
-}
-button {
-    width: 50%;
-    height: 50px;
-    border: 3px solid;
-}
-main {
-    background-image: url("acedmy.jpg");
-    background-size: cover;
-}
-h2 {
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    font-family: 'Poppins', sans-serif;
-    text-decoration: underline blue  ;
-
+    flex-direction: row;
+    justify-content: center;
 
 }
