@@ -36,14 +36,11 @@ h1 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-
 }
-
 
 a {
   color: white;
   text-decoration: none;
-
 }
 
 /* socal media icons */
@@ -62,7 +59,6 @@ a {
 
 a:hover {
   text-decoration: white underline;
-
 }
 
 /* main  */
@@ -79,22 +75,23 @@ main {
   display: flex; /* main is now also flex, we can arrange outerbox with it */
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: left;
+
 }
 /* main content start from here, principal and vice principal outer box */
 .outerbox {
   width: 80%;
-  height: 50vh;
+  height: auto;
   /* border: 2px black solid; */
-
+margin-top: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 .inner-box1 {
-  height: 30vh;
-  width: 30vw;
+  height: auto;
+  width: 90vh;
   /* border: 2px solid; */
   display: flex;
   flex-direction: column;
@@ -121,14 +118,12 @@ img {
   border-radius: 6px;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
   text-align: center;
-      transition: all 0.3s ease; /* Smooth animation */
-    border-radius: 10px;       /* Slightly rounded corners */
+  transition: all 0.3s ease; /* Smooth animation */
+  border-radius: 10px; /* Slightly rounded corners */
 }
 .nametag:hover {
-
-     transform: scale(1.03); /* Slight zoom-in */
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
-
+  transform: scale(1.03); /* Slight zoom-in */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Soft shadow */
 }
 h3 {
   font-family: "Poppins", sans-serif;
@@ -139,22 +134,28 @@ h3 {
   padding: 10px 20px;
 
   border-radius: 6px;
-box-shadow: 0 0 12px rgba(44, 62, 80, 0.12);
+  box-shadow: 0 0 12px rgba(44, 62, 80, 0.12);
+}
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: #2c3e50;
+text-decoration: underline;
+
+
+  display: inline;
 }
 p {
   color: #2c3e50;
-box-shadow: 0 0 12px rgba(44, 62, 80, 0.12);
+  box-shadow: 0 0 12px rgba(44, 62, 80, 0.12);
   padding: 10px 20px;
   border-radius: 6px;
 }
 .inner-box2 {
-  height: 30vh;
+  height: auto;
   width: 70vw;
   /* border: 2px solid; */
-
-
 }
-
 
 /* responsiveness for piture, isko bad ma use krengy jab ma isko row ki bajaye column kro ga for responsiveness */
 @media (max-width: 700px) {
@@ -169,22 +170,18 @@ box-shadow: 0 0 12px rgba(44, 62, 80, 0.12);
   .inner-box2 {
     height: auto;
     width: 100%;
- 
-    
   }
   .nametag {
-   transition: none;
+    transition: none;
   }
   .nametag:hover {
-
     transform: none; /* Slight zoom-in */
     box-shadow: none; /* Soft shadow */
-
-}
+  }
 
   .inner-box1 {
     height: auto;
-    width: 50%;
+    width: 90%;
     /* border: 2px solid; */
   }
   img {
@@ -260,8 +257,7 @@ footer {
   align-items: center;
 }
 @media (max-width: 700px) {
-#rights {
-display: none;
-}
+  #rights {
+    display: none;
   }
-
+}
